@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sekolah_matahari_local/data_siswa_page.dart';
+import 'package:sekolah_matahari_local/data_siswa_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DataSiswaPage(),
+      home: DataSiswaView(),
     );
   }
 }
